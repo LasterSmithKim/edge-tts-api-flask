@@ -1,0 +1,48 @@
+Microsoft Edge TTS 目前提供了超过 74 种语言和 320 多款独特的神经网络音色（Neural Voices），这些全都是可以免 Key 免费使用的。感谢微软提供技术支持。
+
+
+1.使用 uv run server.py 启动服务
+2.使用 uv run play.py 发起请求
+3.这2个命令需要从不同的命令行发起
+4.在payload设置中有多个参数可供调整
+5.以下是一些常用角色声音的说明
+==============================
+
+一、 核心推荐：中文普通话（最常用）
+
+
+角色/Voice ID	性别	特点与适用场景
+zh-CN-YunxiNeural	男	顶流云希：抖音、B站影视解说标配，沉稳中带点小幽默
+zh-CN-XiaoxiaoNeural	女	晓晓：经典的萌妹、情感故事讲述、温柔解说女声
+zh-CN-YunyangNeural	男	云扬：标准的正装新闻播报音，大气、雄浑，适合做科技或严肃历史
+zh-CN-YunjianNeural	男	云健：充满体育解说激情的男声，或者适合读一些热血、激昂的段落
+zh-CN-XiaoyiNeural	女	晓伊：语气更偏日常知性、温柔大姐姐或者客服风
+
+
+二、 特色：中国方言与港台腔
+
+如果你想做一些带有地域特色或者更具有生活气息的配音，这几个堪称一绝：
+• 中国台湾腔（甜美/儒雅）：
+	• zh-TW-HsiaoChenNeural（女：晓臻，非常经典的标准台湾偶像剧女声，温柔甜美）
+	• zh-TW-YunJheNeural（男：云哲，声音温柔儒雅）
+• 粤语/香港腔（追剧/新闻风）：
+	• zh-HK-HiuMaanNeural（女：晓曼）
+	• zh-HK-WanLungNeural（男：云龙）
+• 地方方言（极具喜感，强烈推荐试听）：
+	• zh-CN-liaoning-XiaobeiNeural（女：辽宁东北话，大妹子贼唠嗑的感觉，非常搞笑）
+	• zh-CN-shaanxi-XiaoniNeural（女：陕西话，极具黄土高原和古风特色的秦腔语调）
+	• zh-CN-sichuan-YunxiNeural（男：四川话，自带喜感和悠闲的川普）
+
+三、 国际热门：英文与日语（跨国视频/动漫配音）
+
+做跨境短视频或者需要英文、日文字幕配音时，微软的这几个堪称行业顶级：
+• 美式英语（标准美音）：
+	• en-US-AriaNeural（女：知性职业、非常高档的有声书或教程女声）
+	• en-US-GuyNeural（男：浑厚、成熟、磁性的标准美利坚男高音）
+	• en-US-BrianNeural（男：阳光、活力的美式小哥）
+• 英式英语（伦敦腔）：
+	• en-GB-SoniaNeural（女：高级感拉满的英伦贵族淑女音）
+	• en-GB-RyanNeural（男：绅士感十足的伦敦腔男声）
+• 日语（二次元/日剧风）：
+	• ja-JP-NanamiNeural（女：七海，浓浓的动漫女主角即视感，非常萌）
+	• ja-JP-KeitaNeural（男：圭太，干净温柔的日剧男主少年音）
